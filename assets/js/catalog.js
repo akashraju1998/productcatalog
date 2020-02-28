@@ -173,6 +173,7 @@ $(document).ready(() => {
             <img width="50%" height="50%" class="rounded-circle" src="${imageUrl}" style="object-fit: cover; text-align: center" alt="Card image cap">
               <h5 class="card-title name">${userData.Name}</h5>
               <p class="card-text">${brand}</p>
+              <button id="learnmore">Learn About Product</button>
             <iframe class="airtable-embed" src="https://airtable.com/embed/shrA6Bjw3qOoJhP2f?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>      </div>
         </div>
         <script>
