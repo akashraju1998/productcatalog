@@ -168,13 +168,18 @@ $(document).ready(() => {
         <!-- The Modal -->
         <div id="myModal" class="modal">
           <!-- Modal content -->
-          <div class="modal-content" ">
+          <div class="modal-content">
+          
             <span class="close">&times;</span>
-            <img width="50%" height="50%" class="rounded-circle" src="${imageUrl}" style="object-fit: cover; text-align: center" alt="Card image cap">
+            <div class="card-body">
+              <center>
+              <img width="50%" height="50%" class="rounded-circle" src="${imageUrl}" style="object-fit: cover; text-align: center" alt="Card image cap">
               <h5 class="card-title name">${userData.Name}</h5>
               <p class="card-text">${brand}</p>
               <button id="learnmore">Learn About Product</button>
-              <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrA6Bjw3qOoJhP2f?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="894" style="background: transparent; border: 1px solid #ccc;"></iframe>
+              <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrA6Bjw3qOoJhP2f?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="894" style="background: transparent;"></iframe>
+              </center>
+            </div>
         </div>
         <script>
         // Get the modal
